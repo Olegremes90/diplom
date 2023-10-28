@@ -64,6 +64,7 @@ urlpatterns = [
     # http://localhost:8000/general/users/
     # http://localhost:8000/general/groups/
     path('api/machine-list', views.AutoList.as_view()),
+    path('api/machine-list', views.AutoList.as_view()),
     path('api/lead-detail/<str:title>/', views.LeadDetail.as_view()),
     path('api/engine-detail/<str:title>/', views.EngineDetail.as_view()),
     path('api/technica-detail/<str:title>/', views.TechnicDetail.as_view()),
